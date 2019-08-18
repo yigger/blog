@@ -1,7 +1,7 @@
 ---
 title: Rails 的 ActiveSupport::Concern
 date: 2019-07-18
-tags:
+tags: rails ruby
 ---
 相信使用过 rails 的朋友们都经常会看到或者会使用到 ActiveSupport::Concern 这个模块，但是有没有想过为什么要使用这个模块呢？
 
