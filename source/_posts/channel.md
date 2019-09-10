@@ -74,7 +74,7 @@ $ 子进程 (68567) 成功接收到父进程发来的贺电： haha
 ```
 
 大致的流程如下：
-![image](http://pvzwttsw1.bkt.clouddn.com/WX20190815-182850@2x.png)
+![image](http://image.yigger.cn/WX20190815-182850@2x.png)
 
 其实也可以不关闭管道，让两端都可以通信，但是一般不推荐使用匿名管道 `pipe` 来实现单一进程下既可读又可写，而是使用命名管道 `mkfifo`。当然了，这里只是做简单的了解，毕竟目前我还是想去了解 go 的 channel 
 
