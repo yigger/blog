@@ -61,7 +61,9 @@ HMACSHA256(
 至此，已经生成了三段内容了，然后 `token = 第一段字符串 + "." + 第二段字符串 + "." + 第三段字符串`
 
 以下就是一个 token 的示例格式
-`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c`
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+```
 
 ### 实际使用
 1. 通过登录，输入账号密码，服务端校验成功后，返回 token

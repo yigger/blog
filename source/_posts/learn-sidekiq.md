@@ -227,7 +227,7 @@ end
 
 ### 消费者的大概流程
 
-![image](http://image.yigger.cn/image.png)
+![image](images/image.png)
 
 ### 存在的问题
 1. sidekiq是能保证顺序的，但是因为从队列里面取数据的时候是阻塞的取的，所以造成了尽管有 20 个线程，某个线程从 redis 取数据的时候，其它 19 个线程是处于等待的状态的，并不能实现完美的并发消费。
