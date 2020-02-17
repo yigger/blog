@@ -2,6 +2,7 @@
 title: protocol buffer
 date: 2020-02-11 21:50:39
 tags: protobuf
+categories: 后端技术
 ---
 
 ### protocol buffers 简介

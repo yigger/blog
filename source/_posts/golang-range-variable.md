@@ -1,7 +1,7 @@
 ---
 title: golang迭代变量
 date: 2019-10-08
-tags: golang
+categories: golang
 ---
 在学习 golang 的过程中，遇到一个比较有意思的问题，也是书中指出的需要重点注意的问题。
 

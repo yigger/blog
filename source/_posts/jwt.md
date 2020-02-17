@@ -1,7 +1,7 @@
 ---
 title: JWT的基本概念
 date: 2019-08-13 00:12:03
-tags: web
+categories: Web编程
 ---
 
 由于 http 是无状态的，所以如果要服务端要标示用户的话只能是通过 session 和 cookie 组合的方式来进行交互。

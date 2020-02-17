@@ -2,6 +2,7 @@
 title: Sidekiq源码学习
 date: 2019-07-31 23:00:03
 tags: ruby rails
+categories: 后端技术
 ---
 
 在公司项目里面，我们是用 sidekiq 来做消息队列的，但是都仅仅是停留在用的阶段，前几天有空看了下源码才知道内部结构原来是这么回事
