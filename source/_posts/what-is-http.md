@@ -1,5 +1,5 @@
 ---
-title: 关于 HTTP
+title: HTTP 1.0/1.1/2.0
 date: 2020-02-19
 categories: 网络
 ---
