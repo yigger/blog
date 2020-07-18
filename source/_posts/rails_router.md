@@ -1,3 +1,9 @@
+---
+title: Rails 关于路由的一些事
+date: 2020-07-18
+categories: rails
+---
+
 ### Rails 路由
 > 本文的路由分析是基于 rails 4.0.13
 
