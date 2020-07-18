@@ -2,17 +2,13 @@
 > 本文的路由分析是基于 rails 4.0.13
 
 ### 前言
-在创建完 rails 应用以后，默认的会生成 `config/routes.rb` 文件，平时我们所用到的路由入口都可以定义此处，而使用方法也很简单，只需要在块内简单定义一下路由的路径和响应的 Controller 即可，如下所示，可以简单的定义一个 http GET /welcome 的请求，然后到 HomeController 找到名为 welcome 的 action 并执行熟悉的 MVC 过程（ps: 至于代码如何响应并发送，不过这个暂时不在本节讨论范围，本节主要是看看路由是怎么被定义的，以及路由是怎么与 controller 进行关联起来的）
+在创建完 rails 应用以后，默认的会生成 `config/routes.rb` 文件，平时我们所用到的路由入口都可以定义此处，而使用方法也很简单，只需要在块内简单定义一下路由的路径和响应的 Controller 即可，如下所示，可以简单的定义一个 http GET /welcome 的请求，然后到 HomeController 找到名为 welcome 的 action 并执行熟悉的 MVC 过程（ps: 至于代码如何响应并发送，不过这个暂时不在本节讨论范围，本节主要是看看路由是怎么被定义的
 
 ```ruby
 Rails.application.routes.draw do
 	get '/welcome' => 'home#welcome'
 end
 ```
-
-下面主要分两部分来解读
-1. 路由的定义
-2. 路由是如何响应的
 
 ### 路由是如何被定义的？
 下面开始从第一行代码开始分析，`Rails.application.routes.draw` 做了什么？
@@ -177,8 +173,4 @@ end
 
 在阅读的途中，我画了一下调用栈来帮助理解
 ![调用栈](/images/action_pack/1.png)
-
-
-### 路由是怎么响应的？
-
 
