@@ -1,0 +1,16 @@
+# Blog
+
+- npm install
+
+- 主题：icarus
+`git clone https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus`
+
+- 初始化
+```
+hexo clean
+hexo g
+```
+
+- 启动
+hexo s
+
